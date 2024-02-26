@@ -11,7 +11,7 @@ const firebaseConfig = {
 
 firebase.initializeApp(firebaseConfig);
 
-//Persistencia de datos de firebase , que ladilla bro
+//Persistencia de datos de firebase
 firebase.database().ref().on('value', function() {});
 
 
@@ -46,7 +46,7 @@ let contador = parseInt(localStorage.getItem('contador') || '0'); // Obtener el 
     event.preventDefault();
     alert( tarea.value,'Tarea Asignada');
 
-    // Supuestamente este es el método para agregar un registro según Randy
+    // Supuestamente este es el método para agregar un registro
     let estudentInsert = tareaRef.push(tareaData);
   } else {
     event.preventDefault();
