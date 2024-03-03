@@ -1,12 +1,11 @@
-
 const firebaseConfig = {
-  apiKey: "AIzaSyDS35AdUugonCS3MTU3wkbwNrqgbvCbjHI",
-  authDomain: "webtareas-ced03.firebaseapp.com",
-  databaseURL: "https://webtareas-ced03-default-rtdb.firebaseio.com",
-  projectId: "webtareas-ced03",
-  storageBucket: "webtareas-ced03.appspot.com",
-  messagingSenderId: "990500750343",
-  appId: "1:990500750343:web:6adb02e810066b96ce56a2"
+  apiKey: "AIzaSyAMOrFP92MTJbVw-ia4DH06InnAwGlt32w",
+  authDomain: "crudelectivaiv.firebaseapp.com",
+  databaseURL: "https://crudelectivaiv-default-rtdb.firebaseio.com",
+  projectId: "crudelectivaiv",
+  storageBucket: "crudelectivaiv.appspot.com",
+  messagingSenderId: "807107545407",
+  appId: "1:807107545407:web:eb1b6274f610da083dab8a"
 };
 
 firebase.initializeApp(firebaseConfig);
